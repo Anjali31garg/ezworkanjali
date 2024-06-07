@@ -30,7 +30,7 @@ const Form = () =>{
         }
 
         try{
-            const response = await fetch(process.env.REACT_APP_API_URL,{
+            const response = await fetch('http://34.225.132.160:8002/api',{
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/json'
