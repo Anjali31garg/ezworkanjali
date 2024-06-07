@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "13e085d1-804f-4190-9e58-4528c88414b7",
+		"name": "EZ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24452214"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"test@example.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://34.225.132.160:8002/api",
+					"protocol": "http",
+					"host": [
+						"34",
+						"225",
+						"132",
+						"160"
+					],
+					"port": "8002",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

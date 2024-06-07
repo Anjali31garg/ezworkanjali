@@ -1,0 +1,62 @@
+.form-container {
+    text-align: center;
+    margin: 20px;
+   
+  }
+  
+
+  
+  input {
+    width: 70%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e65c50;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    color: green;
+    margin-bottom: 10px;
+  }
+
+  
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+      }
+    
+
+}
+
+
+  @media (min-width: 1081px) {
+    .form-group {
+        display: flex;
+        
+        gap: 10px; /* Add space between elements */
+      }
+ 
+  }

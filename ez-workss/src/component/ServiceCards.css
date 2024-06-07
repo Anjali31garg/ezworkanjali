@@ -1,0 +1,53 @@
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px;
+    
+  }
+  
+  .service-card {
+    background-color: #002b5c;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .icon-presentation:before {
+    content: '🖥';
+  }
+  
+  .icon-audio:before {
+    content: '🎤';
+  }
+  
+  .icon-translation:before {
+    content: '🌐';
+  }
+  
+  .icon-graphic:before {
+    content: '🎨';
+  }
+  
+  .icon-research:before {
+    content: '🔍';
+  }
+  
+  .icon-data:before {
+    content: '💾';
+  }
+  
+
+  /* Large Desktop View (1081px and above) */
+@media (min-width: 1081px) {
+
+
+}

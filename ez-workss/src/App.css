@@ -1,0 +1,80 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  
+}
+
+.app-header h1 {
+  font-size: 36px;
+  color: #007bff;
+}
+
+.app-header h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoo{
+  display: flex;
+  justify-content: center;
+}
+.myimg{
+  width: 100%;
+  height: 100%;}
+
+/* Responsive Styles */
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+  .service-card {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .form-container input {
+    width: 80%;
+  }
+
+  .form-container button {
+    width: 80%;
+  }
+}
+
+/* Tablet View (481px to 720px) */
+@media (min-width: 481px) and (max-width: 720px) {
+  .service-card {
+    width: 45%;
+  }
+}
+
+/* Small Desktop View (721px to 1080px) */
+@media (min-width: 721px) and (max-width: 1080px) {
+  .service-card {
+    width: 30%;
+  }
+}
+
+/* Large Desktop View (1081px and above) */
+@media (min-width: 1081px) {
+
+.app-header{
+  width: 50%;
+}
+
+  .app-container{
+    display: flex;
+    
+  
+  }
+  
+ 
+}
